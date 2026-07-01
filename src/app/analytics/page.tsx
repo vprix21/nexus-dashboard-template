@@ -89,7 +89,7 @@ export default function AnalyticsPage() {
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {MINI_METRICS.map((m) => (
           <Panel key={m.label} accent={m.color}>
-            <div className="flex items-end justify-between gap-3">
+            <div className="flex items-end justify-between gap-3 pt-4">
               <div>
                 <p className="text-xs uppercase tracking-wide text-white/45">
                   {m.label}
